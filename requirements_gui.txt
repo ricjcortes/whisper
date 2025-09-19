@@ -1,0 +1,21 @@
+"""
+Requisitos para ejecutar Whisper GUI
+Instalar con: pip install -r requirements_gui.txt
+"""
+
+# Requisitos básicos de Whisper
+openai-whisper>=20231117
+torch>=1.9.0
+torchaudio>=0.9.0
+
+# Para la interfaz gráfica (tkinter viene incluido con Python)
+# No se necesitan dependencias adicionales para tkinter
+
+# Dependencias opcionales para mejor rendimiento
+# ffmpeg-python>=0.2.0  # Para soporte de más formatos de audio
+# numpy>=1.21.0         # Ya incluido con whisper
+# scipy>=1.7.0          # Para procesamiento de audio adicional
+
+# Para desarrollo/testing
+# pytest>=6.0.0
+# black>=21.0.0
